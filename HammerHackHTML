@@ -24,7 +24,7 @@
 
             function changeQuote(){
                 var quotes = [
-                    `"i really like web dev"`,`on skib`
+                    `"i really like web dev"`,`on skib`,
 
                 ];
 
