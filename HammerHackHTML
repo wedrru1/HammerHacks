@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Cool Website</title>
+
+        <style>
+            img {
+                width: 600px;
+                height: auto;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <h1>My Cool Website</h1>
+        <p>I think HTML is cool</p>
+        <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deere.com%2Fen%2Farticulated-dump-trucks%2F310-p-adt%2F&psig=AOvVaw0iMzEgr-0RthAX_m2DNYqV&ust=1732456090074000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDcpYPM8okDFQAAAAAdAAAAABAE"></img src>
+
+        <blockquote>This is a prety cool workshop</blockquote>
+        <button onclick="changeQuote">ChangeQuote</button>
+        <script>
+            var index = 0;
+
+            function changeQuote(){
+                var quotes = [
+                    `"i really like web dev"`,`on skib`
+
+                ];
+
+            }
+
+        </script>
+    </body>
+</html>
